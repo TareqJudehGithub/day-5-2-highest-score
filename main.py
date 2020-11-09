@@ -7,6 +7,7 @@ print(student_scores)
 
 #Write your code below this row 👇
 
+# solution #1 using for loop: 
 max_score = 0
 
 for score in student_scores:
@@ -14,6 +15,11 @@ for score in student_scores:
     max_score = score
   
 print(f"The highest score in the class is: {max_score}")
+
+# Solution #2 using max()
+
+highest_score2 = max(student_scores)
+print(f"The highest score in the class is: {highest_score2}")
 
 
 
